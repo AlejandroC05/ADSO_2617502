@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Etiquetas para formularios</title>
+</head>
+<body>
+    <h3 style="color: rgb(8, 8, 163);">Selecciona tu deporte favorito</h3>
+    <!--En esta etiqueta, el usuario puede elegir solo una opción de varias-->
+    <input type="radio" name="selector" id="futbol">Fútbol
+    <br>
+    <input type="radio" name="selector" id="baloncesto">Baloncesto
+    <br>
+    <input type="radio" name="selector" id="tenis">Tenis
+    <br>
+    <input type="radio" name="selector" id="otro">Otro
+    <br>
+    <br>
+    <hr>
+    <h3 style="color: rgb(8, 8, 163);">Productos a comprar</h3>
+    <!--Esta es una lista de chequeo, en la que el usuario puede elegir varias opciones-->
+    <ul>
+        <li><input type="checkbox">Seis libras de arroz</li>
+        <li><input type="checkbox">Tres libras de frijol</li>
+        <li><input type="checkbox">Un galón de aceite</li>
+        <li><input type="checkbox">Dos kilos de azucar</li>
+        <li><input type="checkbox">Un kilo de sal</li>
+        <li><input type="checkbox">Cinco plátanos verdes y cinco maduros</li>
+    </ul>
+    <br>
+    <hr>
+    <h3 style="color: rgb(8, 8, 163);">Seleccione su departamento</h3>
+    <!--Casilla de única selección desplegable de selección-->
+    <select name="entradalista">
+    <optgroup>
+        <option>Seleccionar</option>
+        <option>Huila</option>
+        <option>Caquetá</option>
+        <option>Cundinamarca</option>
+        <option>Tolima</option>
+    </optgroup>
+    </select>
+    <br>
+    <br>
+    <hr>
+    <h3><mark>Lista desplegable</mark></h3>
+    <fieldset style="width: 150px;">
+        <form action="https://www.youtube.com" target="_blank">
+            <p>Selecciona categoría:</p>
+            <select multiple name="categorias" id="">
+                <option value="aventura">Aventura</option>
+                <option value="crimen">Crimen</option>
+                <option value="comedia">Comedia</option>
+                <option value="accion">Acción</option>
+                <option value="familiar">Familiar</option>
+                <option value="drama">Drama</option>
+            </select>
+            </fieldset>
+            <p><input type="submit" value="Enviar información"></p>
+        </form>
+</html>

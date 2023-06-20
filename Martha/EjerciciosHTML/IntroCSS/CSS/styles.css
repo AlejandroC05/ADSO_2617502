@@ -1,0 +1,81 @@
+/* En el fondo de la página se pueden poner imágenes, colores degradados y colores sólidos */
+body {
+    background-image: linear-gradient(180deg, #7b84d7 0, #2d54b1 50%, #002a8c 100%);
+    font-family: 'Roboto', sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Las clases se llaman con un punto (.) */
+/* A todo se le pude poner un fondo */
+.tiluloc1 {
+    color: rgb(3, 163, 51);
+    background-color: aquamarine;
+}
+
+.parrafo1 {
+    color: rgb(123, 21, 38);
+}
+
+.tituloc3 {
+    background-color: beige;
+    color: brown;
+}
+
+/* Los id's se llaman con un numeral (#). Y estos no pueden repetir sus mombres, a diferencia de las clases */
+#parrafo2 {
+    color: rgb(15, 10, 34);
+}
+
+#tituloc32 {
+    background-color: rgb(129, 57, 224);
+}
+
+/* La etiqueta font-size sirve para definir el tamaño de la fuente/letra */
+#parrafo3 {
+    font-size: xx-small;
+    color: rgb(252, 179, 97);
+}
+
+#parrafo32 {
+    font-size: smaller;
+    color: rgb(252, 179, 97);
+}
+
+#parrafo33 {
+    font-size: large;
+    color: rgb(252, 179, 97);
+}
+
+/* La etiqueta font-family sirve para definir el tipo de fuente */
+#parrafo4 {
+    font-family: cursive;
+    color: #CDE530;
+}
+
+/* La etiqueta font-weight sirve para establecer el grosor de un texto. Para un título, un párrafo o lo que sea */ 
+#parrafo5 {
+    font-weight: bold;
+}
+
+/* La etiqueta text-align sirve -como su nombre lo indica- para alinear el texto */
+#parrafo6 {
+    text-align: left;
+    color: rgb(214, 200, 182);
+}
+
+#parrafo7 {
+    text-align: right;
+    color: rgb(214, 200, 182);
+}
+
+#parrafo8 {
+    text-align: center;
+    color: rgb(214, 200, 182);
+}
+
+#parrafo9 {
+    text-align: justify;
+    color: rgb(214, 200, 182);
+}

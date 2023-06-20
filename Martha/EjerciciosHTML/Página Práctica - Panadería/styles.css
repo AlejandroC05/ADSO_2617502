@@ -1,0 +1,19 @@
+body {
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftucasanueva.com.mx%2Fwp-content%2Fuploads%2F2020%2F08%2Fpandulcemexicano-1110x740.jpg&f=1&nofb=1&ipt=c9603ca04a33321a42c33aefbded8bf2b5319ce10c705565ee6e6bad3315f97c&ipo=images');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #ffffff;
+}
+
+div {
+    /* Centrar un div */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Ancho, altura y esquinas redondeadas */
+    width: 500px;
+    height: 740px;
+    border-radius: 20px;
+}

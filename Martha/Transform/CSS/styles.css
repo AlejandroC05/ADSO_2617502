@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(144, 144, 139);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor {
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-color: rgb(243, 226, 204);
+    display: grid;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 315px;
+    border-radius: 1em;
+}
+
+.contenido {
+    justify-content: center;
+    width: 400px;
+}
+
+.pa1 {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+h4 {
+    margin: 0;
+    padding: 0;
+}
+
+.p1 {
+    background-color: rgb(198, 243, 243);
+
+    /* El valor lowercase transforma el texto en minúsculas */
+    text-transform: lowercase;
+}
+
+.p2 {
+    background-color: rgb(216, 248, 201);
+
+    /* El valor uppercase lo transforma en mayúsculas */
+    text-transform: uppercase;
+}
+
+.p3 {
+    background-color: rgb(237, 195, 188);
+
+    /* El valor capitalize lo transforma en mayúsculas */
+    text-transform: capitalize;
+}
